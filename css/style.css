@@ -1,0 +1,213 @@
+/*reusable componente */
+
+h2 {
+    color:#fff !important;
+}
+i {
+    font-size: 50px;
+}
+
+/*----nav Part*/
+.navbar-nav li:first-child{
+    padding-left:0 !important;
+}
+.navbar {
+    background: #000;
+}
+                                /*----INdex.html.....*/
+/*----Home Part*/
+#home .carousel-item {
+    height: 500px;
+}
+
+#home .img-1 {
+    background-image: url('../images/1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#home .img-2 {
+    background-image: url('../images/2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home .img-3 {
+    background-image: url('../images/3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+/*----Get Start Part*/
+#get-started {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../images/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/*----Home-video Part*/
+#home-video {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),  url('../images/people.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-video .fas {
+    color: red !important;
+    font-size: 50px;
+}
+
+
+
+
+
+/*----gallery Part*/
+
+.single-gallery {
+	overflow: hidden;
+	margin-bottom:20px;
+}
+.single-gallery img {
+	width: 100%;
+    transition: 0.5s;
+	height:250px !important;
+}
+.single-gallery img:hover {
+    transform: scale(1.1);
+}
+
+
+/*----copyright Part*/
+#copyright {
+	background:#000;
+}
+
+
+
+
+                                         /*----About.html.....*/
+
+/*----about-header part.....*/
+#about-header {
+    background-image: linear-gradient(#26418270,#2641820f), url(../images/1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+    background-position: 0 -200px;
+}
+#about-header h2 {
+    margin-top: 195px;
+}
+
+
+/*----About-info part.....*/
+#about-info img {
+    width: 350px;
+    height: 350px;
+}
+
+
+/*----footer part.....*/
+.slick-prev::before, .slick-next::before{
+    color:#000 !important;
+}
+
+
+
+
+
+
+                                          /*----Service.html.....*/
+
+#service-header {
+    background-image: linear-gradient(#000000cf,#000000cf), url(../images/service.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    background-position: 0 -290px;
+}
+#service-header h2 {
+    margin-top: 150px;
+}
+#price-table i{
+    font-size: 20px;
+}
+                                        /*----blog.html.....*/
+
+
+#blog-header {
+    background-image: linear-gradient(#6b97ff80,#00000063), url(../images/blog.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    background-position: 0 -279px;
+}
+#blog-header h2 {
+    margin-top:150px;
+}
+
+                                        /*----Contact.html.....*/
+
+
+#contact-header {
+    background-image: linear-gradient(#000000f2,#0000), url(../images/contact.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+    background-position: 0 -260px;
+}
+#contact-header h2 {
+    margin-top:150px;
+}
+#contact-info {
+    background-image: linear-gradient(#000000f2,#0000), url(../images/contact-info.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 center;
+}
+#contact-info .card {
+    background-color: #ffffff4f !important;
+    color: #000 !important;
+}
+#contact-info .form-control {
+    background-color: #ffffff2e !important;
+    color: #fff !important;
+}
+#contact-info input::placeholder{
+    color: #000;
+}
+#contact-info textarea::placeholder{
+    color: #000;
+}
+/*----Responsive Part*/
+@media (max-width:991px){
+    #about-header{
+        background-position: 0 -50px;
+    }
+   #service-header #about-header {
+        background-position: 0 -250px;
+    }
+}
+
+@media (max-width:575px){
+    #home h2 {
+        font-size: 2.5rem;
+    }
+    #about-header h2 {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+
+
